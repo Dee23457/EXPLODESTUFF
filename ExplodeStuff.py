@@ -5,20 +5,20 @@
 
 # importing and stuff :P
 import os
-import sys  # Added this so the typewriter effect actually works!
+import sys
 import time
 import ctypes
 # import winsound kinda uselss for now
 
 
-# settings
+# config
 def typewriter(text, speed=0.05):
-    """Prints text letter by letter silently."""
+    """the funny effect in chatbots."""
     for char in text:
         sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(speed)
-    print()  # Moves to a new line when the text finishes
+    print()
 
 
 title = r""" _______ ___ ___ ______ _____   _______ _____  _______      _______ _______ _______ _______ _______ 
